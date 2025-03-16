@@ -21,6 +21,13 @@ Dane wykorzystane w projekcie pochodzą z platformy Kaggle:
 
 https://www.kaggle.com/datasets/antimoni/metabolic-syndrome
 
+```{r, warning = FALSE}
+# import bibliotek
+library(dplyr)
+library(ggplot2)
+library(ggcorrplot)
+```
+
 
 # Hipotezy badawcze
 
