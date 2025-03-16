@@ -12,11 +12,11 @@ knitr::opts_chunk$set(
 ```
 
 
-## TripleHypothesisR
+# TripleHypothesisR
 W projekcie badam trzy hipotezy dotyczące zależności między danymi klinicznymi pacjentów a posiadaniem przez nich zespołu metabolicznego. Analiza opiera się na modelowaniu statystycznym w języku R, wykorzystując informacje demograficzne oraz kliniczne. 
 
 
-# Dane
+## Dane
 Dane wykorzystane w projekcie pochodzą z platformy Kaggle: 
 
 https://www.kaggle.com/datasets/antimoni/metabolic-syndrome
@@ -29,7 +29,7 @@ library(ggcorrplot)
 ```
 
 
-# Hipotezy badawcze
+## Hipotezy badawcze
 
 **Hipoteza 1**: Model przewidujący poziom HDL oparty na jego 2 najlepszych predyktorach będzie lepiej dopasowany do danych, niż te bazujące tylko na jednym z nich.
 
